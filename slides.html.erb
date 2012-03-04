@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1024">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title><%= @headers['title'] %> | by <%= @headers['author']%></title>
+    
+    <meta name="generator" content="Slide Show (S9)">
+    <meta name="author" content="<%= @headers['author']%>">
+    
+    <!-- Custom CSS just for this page -->
+    <link rel="stylesheet" href="<%= "#{@name}.css" %>">
+    
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" >
+</head>
+<body>
+
+<div id="impress">
+
+    <!-- note: assumes no header (breaking slides w/ SLIDE directive) -->
+<% @slides.each do |slide| %>
+    <div class='step <%= slide.classes %>' <%= slide.data_attributes %>>
+      <%= slide.content %>
+    </div>
+<% end %>
+
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress();</script>
+
+</body>
+</html>

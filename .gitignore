@@ -1,0 +1,7 @@
+# Komodo Project Files
+
+*.kpf
+
+# Generated Ouptput Files
+
+o/

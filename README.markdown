@@ -4,7 +4,7 @@
 
 A Ruby gem that lets you create slide shows and author slides in plain text
 using a wiki-style markup language that's easy-to-write and easy-to-read.
-More [Slide Show (S9) Project Site &raquo;](http://slideshow.rubyforge.org)
+More [Slide Show (S9) Project Site »](http://slideshow-s9.github.io)
 
 ## Intro
 
@@ -29,7 +29,7 @@ If you want to try it yourself, install (fetch) the new template pack. Issue the
 Or as an alternative clone the template pack using `git`. Issue the commands:
 
     $ cd ~/.slideshow/templates
-    $ git clone git://github.com/geraldb/slideshow-impress.js.git
+    $ git clone git://github.com/slideshow-s9/slideshow-impress.js.git
 
 To check if the new template got installed, use the `-l/--list` switch/command:
 
@@ -45,8 +45,8 @@ Tip: To get started use the included quick starter sample. Issue the command:
     $ slideshow -q impress.js
 
 Now you will have a copy of the impress.js Quick Starter sample
-(that is, [`impress.js.text`](https://raw.github.com/geraldb/slideshow-impress.js/master/sample.markdown)
-and [`impress2.js.text`](https://raw.github.com/geraldb/slideshow-impress.js/master/sample2.markdown))
+(that is, [`impress.js.text`](https://raw.github.com/slideshow-s9/slideshow-impress.js/master/sample.markdown)
+and [`impress2.js.text`](https://raw.github.com/slideshow-s9/slideshow-impress.js/master/sample2.markdown))
 in Markdown in your working folder.
 
 ```

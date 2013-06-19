@@ -24,16 +24,16 @@ Note, the package is configured to use the following headers in `slides.html.erb
 
 If you want to try it yourself, install (fetch) the new template pack. Issue the command:
 
-    $ slideshow -f impress.js
+    $ slideshow install impress.js
 
 Or as an alternative clone the template pack using `git`. Issue the commands:
 
     $ cd ~/.slideshow/templates
     $ git clone git://github.com/slideshow-s9/slideshow-impress.js.git
 
-To check if the new template got installed, use the `-l/--list` switch/command:
+To check if the new template got installed, use the `list` command:
 
-    $ slideshow -l
+    $ slideshow list
 
 Listing something like:
 
@@ -42,7 +42,7 @@ Listing something like:
 
 Tip: To get started use the included quick starter sample. Issue the command:
 
-    $ slideshow -q impress.js
+    $ slideshow new -t impress.js
 
 Now you will have a copy of the impress.js Quick Starter sample
 (that is, [`impress.js.text`](https://raw.github.com/slideshow-s9/slideshow-impress.js/master/sample.markdown)
@@ -111,10 +111,10 @@ want to know more?
 [use the source](http://github.com/bartaz/impress.js), Luke!
 ```
 
-Showtime! Let's use the `-t/--template` switch to generate the
+Showtime! Let's use the `-t/--template` switch to build the
 sample slide show. Example:
 
-    $ slideshow -t impress.js impress.js.text
+    $ slideshow build impress.js.text -t impress.js
 
 Open up the generated `impress.js.html` page in your browser. Voila. That's it.
 

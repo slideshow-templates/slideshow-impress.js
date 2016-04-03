@@ -4,5 +4,6 @@
 # use like
 #  slideshow -q impress.js
 
-impress.js.text   sample.markdown
-impress2.js.text  sample2.markdown
+impress.js.text   sample.md
+impress2.js.text  sample2.md
+

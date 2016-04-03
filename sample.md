@@ -104,7 +104,7 @@ the only **limit** is your **imagination**
 !SLIDE x=6300 y=2000 rotate=20 scale=4
 
 want to know more?
-[use the source](http://github.com/bartaz/impress.js), Luke!
+[use the source](http://github.com/impress/impress.js), Luke!
 `x=6300 y=2000 rotate=20 scale=4`
 
 !SLIDE x=6000 y=4000 scale=2

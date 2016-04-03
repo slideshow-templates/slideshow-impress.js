@@ -8,14 +8,14 @@ More [Slide Show (S9) Project Site »](http://slideshow-s9.github.io)
 
 ## Intro
 
-The [impress.js](https://github.com/bartaz/impress.js) package by Bartek Szopka (aka bartaz)
+The [impress.js](https://github.com/impress/impress.js) package by Bartek Szopka (aka bartaz)
 bundled up into a Slide Show (S9) template pack
 lets you author your slides
-in a wiki-style markup language (that is, Markdown or Textile) plus
+in a wiki-style markup language (that is, Markdown) plus
 lets you use text filters and helpers for adding comments, macros,
 includes, syntax highlighters and much more.
 
-Note, the package is configured to use the following headers in `slides.html.erb`:
+Note, the package is configured to use the following headers in `slides.html`:
 
     author: Your Name Here
     title: Your Slide Show Title Here
@@ -29,7 +29,7 @@ If you want to try it yourself, install (fetch) the new template pack. Issue the
 Or as an alternative clone the template pack using `git`. Issue the commands:
 
     $ cd ~/.slideshow/templates
-    $ git clone git://github.com/slideshow-s9/slideshow-impress.js.git
+    $ git clone https://github.com/slideshow-templates/slideshow-impress.js.git
 
 To check if the new template got installed, use the `list` command:
 
@@ -45,8 +45,8 @@ Tip: To get started use the included quick starter sample. Issue the command:
     $ slideshow new -t impress.js
 
 Now you will have a copy of the impress.js Quick Starter sample
-(that is, [`impress.js.text`](https://raw.github.com/slideshow-s9/slideshow-impress.js/master/sample.markdown)
-and [`impress2.js.text`](https://raw.github.com/slideshow-s9/slideshow-impress.js/master/sample2.markdown))
+(that is, [`impress.js.text`](https://raw.github.com/slideshow-s9/slideshow-impress.js/gh-pages/sample.md)
+and [`impress2.js.text`](https://raw.github.com/slideshow-s9/slideshow-impress.js/gh-pages/sample2.md))
 in Markdown in your working folder.
 
 ```
@@ -108,7 +108,7 @@ the only **limit** is your **imagination**
 !SLIDE x=6300 y=2000 rotate=20 scale=4
 
 want to know more?
-[use the source](http://github.com/bartaz/impress.js), Luke!
+[use the source](http://github.com/impress/impress.js), Luke!
 ```
 
 Showtime! Let's use the `-t/--template` switch to build the
@@ -122,5 +122,6 @@ Open up the generated `impress.js.html` page in your browser. Voila. That's it.
 ## Questions? Comments?
 
 Questions? Comments?
-Send them along to the [Free Web Slide Show Alternatives (S5, S6, S9, Slidy And Friends) Forum/Mailing List](http://groups.google.com/group/webslideshow).
+Send them along to the [wwwmake forum/mailing list](http://groups.google.com/group/wwwmake).
 Thanks!
+

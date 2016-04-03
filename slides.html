@@ -1,0 +1,47 @@
+---
+---
+
+{% if jekyll %}
+  {% assign headers   = site.headers %}
+  {% assign slides    = site.slides %}
+  {% assign style_css = 'style.css' %}
+{% else %}
+  {% capture style_css %}{{ name }}.css{% endcapture %}
+{% endif %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1024">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>{{ headers['title'] }} | by {{ headers['author'] }}</title>
+    
+    <meta name="generator" content="{{ headers['generator'] }}">
+    <meta name="author"    content="{{ headers['author'] }}">
+    
+    <!-- Custom CSS just for this page -->
+    <link rel="stylesheet" href={{ style_css }}">
+    
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" >
+</head>
+
+<body class="impress-not-supported">
+
+<div id="impress">
+
+<!-- note: assumes no header (breaking slides w/ SLIDE directive) -->
+{% for slide in slides %}     
+    <div class='step {{ slide.classes }}' {{ slide.data_attributes }}>
+      {{ slide.content }}
+    </div>
+{% endfor %}
+
+
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>

@@ -1,7 +1,4 @@
-# Komodo Project Files
-
-*.kpf
-
-# Generated Ouptput Files
-
+_site/
+.sass-cache/
+.jekyll-metadata
 o/

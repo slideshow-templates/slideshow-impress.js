@@ -1,0 +1,59 @@
+#####
+#  GitHub Pages / Jekyll settings / config
+
+headers:
+  title:     Presentation tool based on the power of CSS3 transforms and transitions in modern browsers
+  author:    Bartek Szopka
+  generator: GitHub Pages w/ Jekyll
+
+collections:
+  slides:
+    output: false
+
+
+exclude:
+- README.md
+- impress.js.txt
+- impress.js.txt.quick
+- package.json
+- sample.md
+- sample2.md
+
+more_content_for_css: |
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  body {
+    background-image: -webkit-linear-gradient(top left, silver, white);
+    background-image:    -moz-linear-gradient(top left, silver, white);
+    background-image:     -ms-linear-gradient(top left, silver, white);
+    background-image:      -o-linear-gradient(top left, silver, white);
+    background-image:         linear-gradient(top left, silver, white);
+  }
+  
+  .step {
+    width: 700px;
+    height: 400px;
+    padding: 40px 60px;
+  
+    font-size: 48px;
+    text-align: center;
+  
+    opacity: 0.3;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  .slide {
+    background: white;
+  }
+  
+  code {
+    background-color: yellow;
+    font-size: 14px;
+  }
+

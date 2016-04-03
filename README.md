@@ -20,6 +20,11 @@ Note, the package is configured to use the following headers in `slides.html`:
     author: Your Name Here
     title: Your Slide Show Title Here
  
+## Live Preview
+
+See [`slides.html`](http://slideshow-templates.github.io/slideshow-impress.js/slides.html).
+ 
+
 ## Try It Yourself - How To Use the impress.js Template Pack
 
 If you want to try it yourself, install (fetch) the new template pack. Issue the command:

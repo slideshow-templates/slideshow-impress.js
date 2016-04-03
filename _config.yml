@@ -19,7 +19,7 @@ exclude:
 - sample.md
 - sample2.md
 
-more_content_for_css: |
+css: |
   a {
     color: inherit;
     text-decoration: none;

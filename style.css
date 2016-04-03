@@ -1,6 +1,9 @@
 ---
 ---
 
+{% if jekyll %}
+  {% assign more_content_for_css = site.css %}
+{% endif %}
 
 /* add your css style rules here */
 

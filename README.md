@@ -1,5 +1,9 @@
 # impress.js - Slide Show (S9) Template Pack
 
+## Live Preview
+
+See [`slides.html`](http://slideshow-templates.github.io/slideshow-impress.js/slides.html).
+
 ## What's Slide Show (S9)?
 
 A Ruby gem that lets you create slide shows and author slides in plain text
@@ -19,10 +23,6 @@ Note, the package is configured to use the following headers in `slides.html`:
 
     author: Your Name Here
     title: Your Slide Show Title Here
- 
-## Live Preview
-
-See [`slides.html`](http://slideshow-templates.github.io/slideshow-impress.js/slides.html).
  
 
 ## Try It Yourself - How To Use the impress.js Template Pack

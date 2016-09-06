@@ -50,8 +50,8 @@ Tip: To get started use the included quick starter sample. Issue the command:
     $ slideshow new -t impress.js
 
 Now you will have a copy of the impress.js Quick Starter sample
-(that is, [`impress.js.text`](https://raw.github.com/slideshow-s9/slideshow-impress.js/gh-pages/sample.md)
-and [`impress2.js.text`](https://raw.github.com/slideshow-s9/slideshow-impress.js/gh-pages/sample2.md))
+(that is, [`impress.js.text`](https://raw.github.com/slideshow-s9/slideshow-impress.js/master/sample.md)
+and [`impress2.js.text`](https://raw.github.com/slideshow-s9/slideshow-impress.js/master/sample2.md))
 in Markdown in your working folder.
 
 ```

@@ -2,6 +2,8 @@
 
 ## Live Preview
 
+![](preview.png)
+
 See [`slides.html`](http://slideshow-templates.github.io/slideshow-impress.js/slides.html).
 
 ## What's Slide Show (S9)?
